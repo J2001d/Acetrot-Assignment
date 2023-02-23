@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: rgb(174, 158, 158);
+}
+html::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+body {
+  background: white;
+  overflow: hidden;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .navbar a {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+  display: inline-block;
+  margin: 0 1rem;
+}
+.header .btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-size: 1.7rem;
+  color: white;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: blue;
+}
+
+.home {
+  width: 100%;
+  background: url(../img/partnership.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  display: flex;
+}
+.home .content h3 {
+  font-size: 6vw;
+  color: white;
+}
+.home .content p {
+  max-width: 60rem;
+  margin: 1rem auto;
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.clients h3 {
+  font-size: 4rem;
+  color: rgb(3, 3, 68);
+}
+.clients .images {
+  display: flex;
+}
+.clients .images .box {
+  height: 15rem;
+  overflow: hidden;
+  width: 100%;
+}
+.clients .images .image1 {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.exp {
+  background-color: rgb(228, 228, 228);
+}
+.exp .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.exp .head h3 {
+  font-size: 4rem;
+  color: rgb(3, 3, 68);
+}
+.exp .head p {
+  font-size: 3rem;
+}
+.exp .content {
+  padding: 1rem;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.exp .content .list {
+  width: 300px;
+}
+.exp .content .list .l1 {
+  display: flex;
+  margin-bottom: 10%;
+}
+.exp .content .list .l1 p {
+  font-size: 2.4rem;
+}
+.exp .content .list .l1 i {
+  color: white;
+  background-color: green;
+  border-radius: 50%;
+  border-color: green;
+  font-size: 1.5rem;
+  margin-right: 10%;
+  padding: 1.2rem;
+}
+.exp .content .image {
+  margin-left: 20%;
+  overflow: hidden;
+  width: 400px;
+}
+.exp .content .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.exp2 {
+  background-color: white;
+}
+.exp2 .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.exp2 .head h3 {
+  font-size: 4rem;
+  color: rgb(3, 3, 68);
+}
+.exp2 .head p {
+  font-size: 3rem;
+}
+.exp2 .content {
+  padding: 1rem;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.exp2 .content .list {
+  margin-left: 20%;
+  width: 300px;
+}
+.exp2 .content .list .l1 {
+  display: flex;
+  margin-bottom: 10%;
+}
+.exp2 .content .list .l1 p {
+  font-size: 2.4rem;
+}
+.exp2 .content .list .l1 i {
+  color: white;
+  background-color: green;
+  border-radius: 50%;
+  border-color: green;
+  font-size: 1.5rem;
+  margin-right: 10%;
+  padding: 1.2rem;
+}
+.exp2 .content .image {
+  overflow: hidden;
+  width: 400px;
+}
+.exp2 .content .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.exp .container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.exp .container .left-box {
+  width: 750px;
+  height: 90vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 4%;
+}
+.exp .container .left-box .lists {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.exp .container .left-box .lists p {
+  font-size: 2.4rem;
+}
+.exp .container .left-box .image {
+  overflow: hidden;
+  width: 400px;
+}
+.exp .container .left-box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.exp .container .right-box {
+  display: flex;
+  flex-direction: column;
+}
+.exp .container .right-box .image {
+  overflow: hidden;
+  width: 400px;
+  height: 250px;
+  margin-bottom: 5%;
+}
+.exp .container .right-box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner {
+  background: url(../img/blue.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  background-attachment: fixed;
+}
+.banner .content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.banner .content h3 {
+  font-size: 4rem;
+  color: white;
+}
+.banner .content p {
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: rgb(62, 62, 62);
+}
+.footer .box-container {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .logo {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+.footer .logo i {
+  color: black;
+  padding-right: 0.5rem;
+}
+.footer .logo a {
+  color: white;
+}
+.footer .box {
+  padding: 1rem 0;
+}
+.footer .box h3 {
+  font-size: 2.2rem;
+  color: white;
+  padding: 1rem 0;
+}
+.footer .box p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem 0;
+  line-height: 2;
+}
+.footer .box p i {
+  padding-right: 0.7rem;
+  color: white;
+}
+.footer .box .share {
+  padding-top: 1rem;
+}
+.footer .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  border: white;
+  color: rgb(90, 90, 255);
+  margin-right: 0.5rem;
+  text-align: center;
+}
+.footer .box .links {
+  font-size: 1.4rem;
+  color: white;
+  padding: 1rem 0;
+  display: block;
+}
+.footer .box .links i {
+  padding-right: 0.5rem;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
